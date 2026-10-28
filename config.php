@@ -1,0 +1,215 @@
+<?php
+// Konfigurasi dan data portofolio Nida Asyanah
+return [
+    'name'     => 'Nida Asyanah',
+    'nickname' => 'Nida',
+    'nim'      => '2023240009',
+    'role'     => 'Information Systems | Admin & Data Entry | Live Stream Host',
+    'tagline'  => 'Mahasiswa Sistem Informasi dengan pengalaman 2+ tahun di bidang administrasi & data entry (PSN Indonesia), live commerce host TikTok & Shopee, serta rekayasa sistem aplikasi web.',
+    'email'    => 'nidaasyanah@gmail.com',
+    'phone'    => '6281234567890', // Nomor untuk WhatsApp CTA jika diinginkan
+    'location' => 'Jakarta / Bekasi, Indonesia',
+    'status'   => 'Open to Work, Magang & Live Host Collaboration',
+    'university' => 'Universitas Darma Persada',
+    'major'    => 'S1 Sistem Informasi (Jul 2023 – Feb 2027)',
+
+    'photos' => [
+        'portrait' => 'assets/images/nida-portrait.jpg',
+        'formal'   => 'assets/images/nida-formal.jpg',
+        'casual'   => 'assets/images/nida-casual.jpg',
+    ],
+
+    'ticker' => [
+        '✦ DATA ENTRY SPECIALIST (PSN)',
+        '✦ TIKTOK & SHOPEE LIVE HOST',
+        '✦ S1 SISTEM INFORMASI (BACHELOR DEGREE)',
+        '✦ WEB & PYTHON APPLICATION DEVELOPER',
+        '✦ E-COMMERCE CLOTHING BRAND OWNER',
+        '✦ UI/UX DESIGN WITH FIGMA',
+        '✦ 99.9% DATA ACCURACY',
+        '✦ FAST LEARNER & CREATIVE COMMUNICATOR',
+    ],
+
+    'about' => [
+        'Information Systems Student with a strong interest in software development, system analysis, and digital technology. Skilled in UML, UI/UX Design using Figma, database management, and application development.',
+        'Experienced in developing various projects, including a Parking Management Application, Cinema Website, and Export Activity Management Application. Currently working in administration and data management at a Private National Standards Assessment Institution (PSN) for over 2 years and previously completed an internship at PT Metinca Prima Industrial Works.',
+        'Additionally, experienced in live commerce as a TikTok and Shopee Live Host, as well as creating promotional video content to support online sales and customer engagement. Adaptable, detail-oriented, and always eager to learn and contribute to meaningful projects.',
+    ],
+
+    'education' => [
+        [
+            'period'      => 'Jul 2023 – Feb 2027',
+            'degree'      => 'Bachelor\'s Degree, Information System',
+            'institution' => 'Universitas Darma Persada',
+            'desc'        => 'Mempelajari Rekayasa Perangkat Lunak, UML Modeling, UI/UX Design (Figma), Manajemen Basis Data, dan Pengembangan Aplikasi Web.',
+        ],
+    ],
+
+    'experiences' => [
+        [
+            'period'    => 'Jun 2024 – Sekarang (2+ Tahun Pengalaman)',
+            'role'      => 'Administration & Data Entry Staff',
+            'company'   => 'PSN PT Standar Nasional Indonesia',
+            'location'  => 'Jakarta',
+            'category'  => 'Administration',
+            'badge'     => 'Data & Operasional',
+            'icon'      => '📋',
+            'highlight' => '2+ Tahun Akurasi Data',
+            'points'    => [
+                'Managed administrative and data entry tasks for daily operations with high accuracy.',
+                'Organized and maintained official company documents and records systematically.',
+                'Supported reporting and data processing activities for national assessment workflows.',
+                'Supported operational processes to ensure data accuracy, integrity, and efficiency.',
+                'Developed comprehensive expertise in corporate administration, documentation, and data management.',
+            ],
+        ],
+        [
+            'period'    => 'Feb 2024',
+            'role'      => 'Live Streaming Host & Content Creator',
+            'company'   => 'Stealth Startup',
+            'location'  => 'Bekasi',
+            'category'  => 'Live Commerce',
+            'badge'     => 'TikTok & Shopee Live',
+            'icon'      => '🎙️',
+            'highlight' => 'Live Commerce & Engagement',
+            'points'    => [
+                'Hosted engaging live streaming sessions on TikTok Live and Shopee Live to promote products and drive sales.',
+                'Presented product features, benefits, and promotions persuasively to maximize conversion and revenue.',
+                'Created creative promotional video content for social media and e-commerce platforms.',
+                'Interacted with active audiences, answered customer inquiries live, and built strong retention.',
+                'Assisted in digital marketing execution and online sales strategy optimization.',
+            ],
+        ],
+        [
+            'period'    => 'Mar 2023 – Sekarang',
+            'role'      => 'Owner & Online Seller',
+            'company'   => 'Online Clothing Business (Self-employed)',
+            'location'  => 'Bekasi',
+            'category'  => 'Entrepreneurship',
+            'badge'     => 'Business & E-Commerce',
+            'icon'      => '🛍️',
+            'highlight' => 'Fashion Brand Founder',
+            'points'    => [
+                'Founded and managed an online clothing business independently from sourcing to customer delivery.',
+                'Promoted and sold products through TikTok Live and Shopee Live broadcasts.',
+                'Created trend-driven marketing content and promotional video reels across platforms.',
+                'Managed customer inquiries, orders fulfillment, inventory, and customer relations.',
+                'Developed customer engagement strategies that fostered high repeat purchase rates.',
+            ],
+        ],
+        [
+            'period'    => 'Apr 2026',
+            'role'      => 'IT Web Developer Intern',
+            'company'   => 'PT Metinca Prima Industrial Works',
+            'location'  => 'Bekasi',
+            'category'  => 'Technology',
+            'badge'     => 'Industrial Internship',
+            'icon'      => '💻',
+            'highlight' => 'Aplikasi Ekspor Perusahaan',
+            'points'    => [
+                'Membuat aplikasi dokumen ekspor berbasis web menggunakan bahasa PHP, Python, CSS, dan HTML.',
+                'Mendigitalkan alur kerja pencatatan dan pelacakan ekspor kontainer guna mempermudah staf bertugas.',
+                'Merancang skema database relasional MySQL untuk arsip data ekspor industri yang aman dan cepat dicari.',
+            ],
+        ],
+    ],
+
+    'skills' => [
+        'Administrasi & Data Entry' => [
+            'icon' => '📋',
+            'tag'  => 'Operational Excellence',
+            'items' => [
+                'Data Entry Processing',
+                'Document Archiving & Filing',
+                'Data Accuracy & Verification',
+                'Reporting & Record Keeping',
+                'Microsoft Excel / Spreadsheet',
+                'Operational Administration',
+            ],
+        ],
+        'Live Commerce & Content' => [
+            'icon' => '🎙️',
+            'tag'  => 'Sales & Social Engagement',
+            'items' => [
+                'TikTok Live Hosting',
+                'Shopee Live Streaming',
+                'Short Video Content Creation',
+                'Public Speaking & Sales Presentation',
+                'Audience Retention & Engagement',
+                'E-Commerce Operations',
+            ],
+        ],
+        'Teknologi Informasi & Web' => [
+            'icon' => '💻',
+            'tag'  => 'Software & Database',
+            'items' => [
+                'PHP (Fullstack Basics)',
+                'Python Programming',
+                'MySQL Database Management',
+                'HTML5 & Modern CSS3',
+                'JavaScript (ES6+)',
+                'REST API & Web Architecture',
+            ],
+        ],
+        'System Analysis & Design' => [
+            'icon' => '📐',
+            'tag'  => 'Engineering & UI/UX',
+            'items' => [
+                'UML (Unified Modeling Language)',
+                'UI/UX Design (Figma)',
+                'System Requirement Analysis',
+                'Visual Programming',
+                'Flowchart & Data Flow Diagram',
+                'Problem Solving',
+            ],
+        ],
+    ],
+
+    'projects' => [
+        [
+            'year'     => '2026',
+            'badge'    => 'Enterprise Web App',
+            'category' => 'Industry Project',
+            'title'    => 'Export Activity Management Application',
+            'company'  => 'PT Metinca Prima Industrial Works',
+            'desc'     => 'Aplikasi manajemen dokumen ekspor berbasis web (PHP & Python) untuk mendigitalkan pencatatan kontainer, invoice, dan berkas ekspor industri.',
+            'tech'     => ['PHP', 'Python', 'MySQL', 'CSS3', 'HTML5'],
+            'highlights' => ['Digitalisasi Alur Ekspor', 'Database Relasional', 'Otomasi Pencatatan'],
+        ],
+        [
+            'year'     => '2025',
+            'badge'    => 'System & Database',
+            'category' => 'Academic System',
+            'title'    => 'Parking Management Application',
+            'company'  => 'Information System Project',
+            'desc'     => 'Sistem informasi manajemen parkir terkomputerisasi dengan kalkulasi tarif real-time, pencatatan plat kendaraan, dan monitoring slot parkir.',
+            'tech'     => ['PHP', 'MySQL', 'JavaScript', 'UML Modeling', 'Bootstrap'],
+            'highlights' => ['Kalkulasi Otomatis', 'Alokasi Slot Parkir', 'UML Design'],
+        ],
+        [
+            'year'     => '2025',
+            'badge'    => 'Web & UI/UX Design',
+            'category' => 'Creative Web',
+            'title'    => 'Cinema Website Application',
+            'company'  => 'UI/UX & Web Project',
+            'desc'     => 'Website katalog film dan reservasi bioskop modern yang dirancang interaktif di Figma lalu diimplementasikan dengan antarmuka responsif.',
+            'tech'     => ['Figma UI/UX', 'PHP', 'HTML5', 'CSS3', 'JavaScript'],
+            'highlights' => ['Figma Prototyping', 'Katalog Interaktif', 'Responsive UI'],
+        ],
+        [
+            'year'     => '2025',
+            'badge'    => 'Visual Programming',
+            'category' => 'Campus Project',
+            'title'    => 'Sistem Penerimaan Mahasiswa Digital',
+            'company'  => 'Universitas Darma Persada',
+            'desc'     => 'Aplikasi pendaftaran mahasiswa baru digital untuk menyederhanakan alur pendaftaran, verifikasi berkas formulir, dan rekapitulasi data calon mahasiswa.',
+            'tech'     => ['Visual Programming', 'PHP', 'MySQL', 'Analisis Sistem'],
+            'highlights' => ['Verifikasi Berkas', 'Database Mahasiswa', 'Rekapitulasi Data'],
+        ],
+    ],
+
+    'socials' => [
+        'LinkedIn'  => 'https://www.linkedin.com/in/nida-asyanah-330593288',
+        'Instagram' => 'https://instagram.com/nidaasyanah',
+    ],
+];
